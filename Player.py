@@ -7,7 +7,7 @@ class Player(pygame.sprite.Sprite):
         super(Player, self).__init__()
         self.surf = pygame.image.load("images/ship.png")
         self.surf.set_colorkey((255, 255, 255), RLEACCEL)
-        self.rect = self.surf.get_rect(center=(700, 750))
+        self.rect = self.surf.get_rect(center=(765, 750))
 
     def update(self, pressed_keys):
         if pressed_keys[K_UP]:

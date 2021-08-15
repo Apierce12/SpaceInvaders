@@ -10,7 +10,7 @@ class Laser(pygame.sprite.Sprite):
         self.rect = self.surf.get_rect()
  
     def update(self):
-        self.rect.y -= 3
+        self.rect.y -= 10
 
         if self.rect.y < 0:
             self.kill()
