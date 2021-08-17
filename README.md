@@ -4,6 +4,7 @@ Version 1.0
 Features
 
   -Added .png file for player
+ 
   -Added .png file for enemy 
   -Ememy randomly fall to of the screen at any position
   -Window size 1500 x 800
